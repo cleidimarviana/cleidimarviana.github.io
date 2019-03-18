@@ -13,12 +13,11 @@ html {
 }
 
 body {
+    font-family: Open Sans, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #333332;
-    font-family: Lora, serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.4;
     text-rendering: optimizeLegibility;
     margin: 0 auto;
 }
@@ -68,7 +67,6 @@ h1 {
     right: 0;
     top: 0;
     width: 85%;
-    font-size: 20px;
 }
 
 .me-img {
@@ -83,7 +81,6 @@ h1 {
 }
 
 .name-hero h1 {
-    font-family: Open Sans, sans-serif;
     font-size: 1.5em;
     text-align: center;
 }
@@ -96,7 +93,6 @@ h1 {
 
 .name-hero p {
     color: rgba(0, 0, 0, .5);
-    font-size: .75em;
     line-height: 1.5;
     margin: 0 8px 0 0;
     text-align: center;
@@ -110,7 +106,7 @@ h1 {
 .inner {
     margin: 0 auto;
     max-width: 975px;
-    padding: 3em;
+    padding: 2em;
 }
 
 .inner h1 {
@@ -133,7 +129,7 @@ h1 {
 ul {
     list-style-type: none;
     margin-top: -10px;
-    max-width: 570px;
+    /*max-width: 570px;*/
     padding: 0;
 }
 
@@ -142,11 +138,12 @@ ul {
     border-radius: 4px;
     display: inline-block;
     list-style: none;
-    margin: 10px 10px 0 0;
+    margin: 6px 6px 0 0;
     padding: 4px;
     text-align: justify;
     color: #fff;
     cursor: pointer;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 48em) {
@@ -156,7 +153,7 @@ ul {
         float: none;
         position: relative !important;
         width: 100%;
-        min-height: 500px;
+        min-height: 450px;
     }
 
     .handmade {
@@ -191,7 +188,6 @@ ul {
     }
 
     .handmade em {
-        font-family: 'Shadows Into Light', cursive;
         font-size: 1.25em;
         margin-left: 5px;
     }
